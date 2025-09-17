@@ -1,6 +1,8 @@
+import { filme } from "./array.js"
+
 export function deleteFilme(req, res) {
     const { id } = req.params
-    const filmeIndex = estudante.findIndex((element) => element.id == id)
+    const filmeIndex = filme.findIndex((element) => element.id == id)
 
     if(filmeIndex !== -1){
 
